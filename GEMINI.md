@@ -31,8 +31,7 @@ To further enhance code cleanliness and promote safe functional programming prac
 *   **Improve Readability:** Chaining array operators often lead to more concise and expressive code than traditional for loops or imperative logic. The intent of the operation is clear at a glance.
 *   **Facilitate Functional Programming:** These operators are cornerstones of functional programming, encouraging the creation of pure functions that take inputs and produce outputs without causing side effects. This paradigm is highly beneficial for writing robust and testable code that pairs well with React.
 
-
-### 6. Follow React best practices
+### 5. Follow React best practices
 *   **Use functional components with Hooks:** Do not generate class components or use old lifecycle methods. Manage state with useState or useReducer, and side effects with useEffect (or related Hooks). Always prefer functions and Hooks for any new component logic.
 
 *   **Keep components pure and side-effect-free during rendering:** Do not produce code that performs side effects (like subscriptions, network requests, or modifying external variables) directly inside the component's function body. Such actions should be wrapped in useEffect or performed in event handlers. Ensure your render logic is a pure function of props and state.
