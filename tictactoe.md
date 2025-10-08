@@ -27,10 +27,9 @@ Your task is to create a complete, functional Tic Tac Toe game application using
 
 Please organize the code into the following structure and provide the complete code for each file.
 
-*   `tailwind.config.js`: The configuration file for Tailwind CSS.
-*   `postcss.config.js`: The configuration file for PostCSS.
+*   `postcss.config.mjs`: The configuration file for PostCSS.
 *   `app/layout.js`: The root layout, which should import `globals.css`.
-*   `app/globals.css`: The global stylesheet, containing the Tailwind CSS directives.
+*   `app/globals.css`: The global stylesheet, containing the "tailwindcss" CSS directive.
 *   `app/page.js`: The main entry point for the application, which will host the `Game` component.
 *   `components/Game.js`: The main parent component that holds the game state and logic. This must be a client component (`'use client'`).
 *   `components/Board.js`: A component that renders the 3x3 grid of squares.
