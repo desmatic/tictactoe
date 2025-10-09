@@ -20,8 +20,8 @@
 ### 3. Tailwind CSS Configuration
 
 *   **Use single tailwind directive:** Use @import "tailwindcss" in global.css file.
-*   **DO NOT USE INDIVIDUAL TAILWIND DIRECTIVES:** Do not use any of the individual @tailwind directives "base", "components", or "utilities".
 *   **Configure PostCSS to use Tailwind:** Use "@tailwindcss/postcss" in postcss.config.mjs file.
+*   **Do not use individual tailwind directives:** Do not use tailwind directives "base", "components", or "utilities" in global.css file.
 
 ### 4. Embrace JavaScript's Array Operators
 
